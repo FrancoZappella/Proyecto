@@ -14,7 +14,17 @@ header{
     text-align: center;
     line-height: 50px;
     border-bottom: 3px dashed rgba(255, 0, 0, 0.473);
-    
+    animation-name: miAnimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes miAnimacion{
+    0%{background: black;}
+    50%{background: rgb(100, 20, 20);}
+    100%{background: rgb(197, 19, 19);}
 }
 .menu{
     background-color: black;
@@ -63,7 +73,14 @@ aside{
     text-align: center;
     text-decoration: none;
     color:rgb(112, 16, 16) ;
+    transition: background-color height 3s;
+    
 
+}
+aside:hover{
+    background: white;
+    
+    
 }
 
 .articulo{
@@ -84,6 +101,9 @@ footer{
     text-align: center;
     height: 100px;
     line-height: 20px;
+    animation-name: miAnimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
 }
 
 
