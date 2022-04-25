@@ -299,3 +299,20 @@ tr:hover td{
 }
 
 
+@media screen and (max-width: 992px) {
+    .sidebar {
+        width: 50%;
+    }
+    .contenido {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+    width: 100%;
+    }
+    .contenido {
+        width: 100%;
+    }
+}
